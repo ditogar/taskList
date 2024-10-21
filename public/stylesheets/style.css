@@ -1,0 +1,45 @@
+body {
+  font: 14px Arial, sans-serif;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.add-btn {
+  font-weight: bold;
+  background-color: mediumpurple;
+  padding: 1% 1% 1%;
+  display: flex;
+  align-items: center;
+}
+
+.add-btn:hover {
+  background-color: rebeccapurple;
+}
+
+.note-container {
+  width: 60%;
+}
+
+.note {
+  margin-bottom: 4%;
+  border-radius: 5px;
+  background-color: mediumpurple; /* Color de fondo morado */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Agrega sombra a la tarjeta */
+  transition: box-shadow 0.3s ease; /* Transición suave para el efecto de sombra */
+  padding: 15px; /* Espaciado interno para mejorar el diseño */
+}
+
+/* Efecto de sombra al pasar el ratón por encima de la nota */
+.note:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Aumenta la sombra al pasar el ratón */
+}
+
+.note h5 {
+  color: white;
+  font-weight: bold;
+}
